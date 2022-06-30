@@ -9,7 +9,7 @@ import time
 from getpass import getpass
 
 url = 'https://twitter.com/sachin_rt/likes'
-driver = webdriver.Chrome('./chromedriver_win32103/chromedriver')
+driver = webdriver.Chrome('./chromedriver')
 
 SampleOP={}
 def Twitterscraper(url):
